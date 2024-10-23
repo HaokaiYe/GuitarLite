@@ -11,7 +11,7 @@ if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
 
 devtools::install_github("HaokaiYe/GuitarLite")
-
+```
 
 ### Usage
 First, load the package into R.
