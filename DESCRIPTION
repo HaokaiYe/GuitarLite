@@ -1,0 +1,24 @@
+Package: GuitarLite
+Type: Package
+Title: Lightweight Visualization of Metagene and Transcript Region Distributions
+Version: 0.1.0
+Authors@R: person("Haokai", "Ye", email = "haokai.ye17@student.xjtlu.edu.cn",
+                  role = c("aut", "cre"))
+Maintainer: Haokai Ye <haokai.ye17@student.xjtlu.edu.cn>
+Description: GuitarLite is a lightweight R package designed for visualizing the distribution of genomic features, such as m6A modification sites, across transcript regions including the 5' UTR, CDS, and 3' UTR. The package supports GRanges and GRangesList inputs, and provides users with options to customize labels, colors, and plot types. By aligning modification sites to these transcript regions and calculating their relative positions, GuitarLite generates density-based metagene plots that depict the positional distribution of sites within each region, enabling comprehensive analysis of transcriptomic modifications.
+License: GPL-3
+Imports:
+    ggplot2,
+    patchwork,
+    GenomicRanges,
+    GenomicFeatures,
+    IRanges,
+    scales
+Suggests: 
+    rtracklayer,
+    TxDb.Hsapiens.UCSC.hg38.knownGene
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0)
+RoxygenNote: 7.2.1

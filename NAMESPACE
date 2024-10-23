@@ -1,0 +1,6 @@
+export(GuitarLitePlot)
+import(ggplot2)
+import(patchwork)
+import(GenomicRanges)
+import(GenomicFeatures)
+import(IRanges)
