@@ -54,3 +54,4 @@ topology_plot <- GuitarLitePlot(x, txdb, region_weights = region_weights, labels
 # Display the plot
 print(topology_plot)
 ```
+
